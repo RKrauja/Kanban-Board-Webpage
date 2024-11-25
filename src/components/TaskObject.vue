@@ -1,7 +1,13 @@
 <script setup>
 // import draggable from "vuedraggable";
-</script>
+import { defineProps } from "vue";
 
+defineProps({
+  title: String,
+  description: String,
+  styleClass: String,
+});
+</script>
 <template>
   <v-card flat>
     <VHover v-slot:default="{ isHovering, props }">
@@ -10,9 +16,9 @@
         class="rounded-lg ma-2"
         v-bind="props"
       >
-        <v-card-title class="font-size:14px"> Task Name</v-card-title>
-        <v-card-text
-          >This is a description of the particular task :)
+        <v-card-title class="font-size:14px"> {{ title }}</v-card-title>
+        <v-card-text>
+          {{ description }}
         </v-card-text>
       </v-card>
     </VHover>
