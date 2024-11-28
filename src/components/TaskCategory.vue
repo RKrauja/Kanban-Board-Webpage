@@ -1,25 +1,40 @@
 <script setup>
-import { defineProps, ref } from "vue";
+import { defineEmits, defineProps, ref } from "vue";
 import draggable from "vuedraggable";
 import TaskObject from "@/components/TaskObject.vue";
-import AddNewTaskWindow from "@/components/AddNewTaskWindow.vue";
-
-let tasks = ref([
-  { id: 1, title: "Task 1", description: "Some cute description 1" },
-  { id: 2, title: "Task 2", description: "Some cute description 2" },
-  { id: 3, title: "Task 3", description: "Some cute description 3" },
-]);
+import AddNewTaskBlock from "@/components/AddNewTaskBlock.vue";
 
 defineProps({
   title: String,
   headerColor: String,
+  tasks: {
+    type: Array,
+    required: true,
+  },
 });
 
+const emits = defineEmits(["new-task", "update-task", "update:tasks"]);
 const taskButtonVisibility = ref(true);
+
+const handleTaskButtonVisibility = (isVisible) => {
+  taskButtonVisibility.value = isVisible;
+};
+
+const handleUpdateTasks = (event) => {
+  emits("update:tasks", event);
+};
+
+const handleUpdateTask = (event) => {
+  emits("update-task", event);
+};
+
+const handleNewTask = (event) => {
+  emits("new-task", event);
+};
 </script>
 
 <template>
-  <v-col align="center" justify="center" class="my-4">
+  <v-col align="center" class="my-4" justify="center">
     <v-card :class="[headerColor, 'rounded-t-lg']" flat rounded="0">
       <v-card-title class="text-black">
         <strong>{{ title }}</strong>
@@ -33,37 +48,38 @@ const taskButtonVisibility = ref(true);
       style="max-height: 85vh; overflow-y: auto"
     >
       <draggable
-        v-model="tasks"
-        tag="ul"
+        :class="{ 'pb-12 ': tasks.length === 0, 'pb-6': tasks.length !== 0 }"
+        :model-value="tasks"
         group="tasks"
         item-key="id"
-        class="pb-2"
+        tag="ul"
+        @update:model-value="handleUpdateTasks"
       >
         <template #item="{ element }">
           <TaskObject
-            class="bg-transparent"
-            :title="element.title"
+            :id="element.id"
             :description="element.description"
+            :title="element.title"
+            class="bg-transparent"
+            @UpdatedTask="handleUpdateTask"
           />
         </template>
       </draggable>
-      <v-card-item flat class="ma-0 pa-0">
+      <v-card-item class="ma-0 pa-0" flat>
         <div class="d-flex justify-center align-center">
-          <AddNewTaskWindow
+          <AddNewTaskBlock
+            v-if="!taskButtonVisibility"
             id="add-task-window"
-            :class="{ 'd-none': !taskButtonVisibility }"
+            @NewTask="handleNewTask"
+            @taskButtonVisibility="handleTaskButtonVisibility"
           />
         </div>
       </v-card-item>
-      <v-card-item
-        flat
-        class="ma-0 pa-0"
-        :class="{ 'd-none': !taskButtonVisibility }"
-      >
+      <v-card-item v-if="taskButtonVisibility" class="ma-0 pa-0" flat>
         <div class="d-flex justify-center py-4">
           <v-btn
-            class="bg-transparent"
             border="0"
+            class="bg-transparent"
             flat
             @click="taskButtonVisibility = false"
           >
@@ -77,5 +93,3 @@ const taskButtonVisibility = ref(true);
     </v-card>
   </v-col>
 </template>
-
-<style scoped></style>
