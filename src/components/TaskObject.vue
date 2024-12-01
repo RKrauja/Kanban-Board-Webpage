@@ -1,22 +1,24 @@
-<script setup>
+<script lang="ts" setup>
 import { defineEmits, defineProps, ref } from "vue";
 import EditExistingCard from "@/components/EditExistingCard.vue";
+import { Task } from "@/types/task";
 
-const props = defineProps({
-  id: Number,
-  title: String,
-  description: String,
-});
-const emits = defineEmits(["UpdatedTask"]);
+const props = defineProps<{
+  id: number;
+  title: string;
+  description: string;
+}>();
+
+const emits = defineEmits<{ updatedTask: [task: Task] }>();
 const editBlockVisibility = ref(false);
 
-const handleEditBlockVisibility = (isVisible) => {
+const handleEditBlockVisibility = (isVisible: boolean): void => {
   editBlockVisibility.value = isVisible;
 };
 
-const handleEditedTask = (UpdatedTask) => {
+const handleEditedTask = (UpdatedTask: Task): void => {
   UpdatedTask.id = props.id;
-  emits("UpdatedTask", UpdatedTask);
+  emits("updatedTask", UpdatedTask);
 };
 </script>
 

@@ -1,9 +1,10 @@
-<script setup>
+<script lang="ts" setup>
 import TaskCategory from "@/components/TaskCategory.vue";
 import { ref } from "vue";
 import AppBar from "@/components/AppBar.vue";
+import { NewTask, Task } from "@/types/task";
 
-let tasks = ref([
+const tasks = ref<Task[][]>([
   [
     { id: 1, title: "Task 1", description: "Some cute description 1" },
     { id: 2, title: "Task 2", description: "Some cute description 2" },
@@ -26,7 +27,7 @@ let tasks = ref([
   ],
 ]);
 
-const generateNewTaskId = () => {
+const generateNewTaskId = (): number => {
   let maxId = 0;
   for (let i = 0; i < tasks.value.length; i++) {
     maxId = Math.max(maxId, ...tasks.value[i].map((task) => task.id));
@@ -34,25 +35,25 @@ const generateNewTaskId = () => {
   return maxId + 1;
 };
 
-const handleNewTask = (categoryIndex, newTask) => {
+const handleNewTask = (categoryIndex: number, newTask: NewTask): void => {
   tasks.value[categoryIndex].push({
-    id: generateNewTaskId() + 1,
+    id: generateNewTaskId(),
     title: newTask.title,
     description: newTask.description,
   });
 };
 
-const handleUpdatedTask = (categoryIndex, updatedTask) => {
+const handleUpdatedTask = (categoryIndex: number, updatedTask: Task): void => {
   const taskList = tasks.value[categoryIndex];
   const index = taskList.findIndex((task) => task.id === updatedTask.id);
   if (updatedTask.title === "") {
     taskList.splice(index, 1);
     return;
   }
-  taskList[index] = updatedTask.title === "" ? null : updatedTask;
+  taskList[index] = updatedTask;
 };
 
-const handleTasksReorder = (categoryIndex, newTasks) => {
+const handleTasksReorder = (categoryIndex: number, newTasks: Task[]): void => {
   tasks.value[categoryIndex] = newTasks;
 };
 </script>
@@ -109,6 +110,5 @@ const handleTasksReorder = (categoryIndex, newTasks) => {
     url("https://throughjuliaslens.com/wp-content/uploads/2018/06/Christiansborg5.jpg")
       center center / cover;
   min-height: 100vh;
-  position: relative;
 }
 </style>

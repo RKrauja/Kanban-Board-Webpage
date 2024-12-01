@@ -1,35 +1,38 @@
-<script setup>
+<script lang="ts" setup>
 import { defineEmits, defineProps, ref } from "vue";
 import draggable from "vuedraggable";
 import TaskObject from "@/components/TaskObject.vue";
 import AddNewTaskBlock from "@/components/AddNewTaskBlock.vue";
+import type { NewTask, Task } from "@/types/task";
 
-defineProps({
-  title: String,
-  headerColor: String,
-  tasks: {
-    type: Array,
-    required: true,
-  },
-});
+defineProps<{
+  title: string;
+  headerColor: string;
+  tasks: Task[];
+}>();
 
-const emits = defineEmits(["new-task", "update-task", "update:tasks"]);
+const emits = defineEmits<{
+  "new-task": [task: NewTask];
+  "update-task": [task: Task];
+  "update:tasks": [tasks: Task[]];
+}>();
+
 const taskButtonVisibility = ref(true);
 
-const handleTaskButtonVisibility = (isVisible) => {
+const handleTaskButtonVisibility = (isVisible: boolean): void => {
   taskButtonVisibility.value = isVisible;
 };
 
-const handleUpdateTasks = (event) => {
-  emits("update:tasks", event);
+const handleUpdateTasks = (newTasks: Task[]): void => {
+  emits("update:tasks", newTasks);
 };
 
-const handleUpdateTask = (event) => {
-  emits("update-task", event);
+const handleUpdateTask = (updatedTask: Task): void => {
+  emits("update-task", updatedTask);
 };
 
-const handleNewTask = (event) => {
-  emits("new-task", event);
+const handleNewTask = (newTask: NewTask): void => {
+  emits("new-task", newTask);
 };
 </script>
 

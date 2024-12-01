@@ -1,7 +1,7 @@
-<script setup></script>
+<script lang="ts" setup></script>
 
 <template>
-  <v-app-bar flat color="#e0e0e0" elevation="1">
+  <v-app-bar color="#e0e0e0" elevation="1" flat>
     <v-container class="d-flex align-center py-0 px-6">
       <div class="d-flex align-center">
         <v-app-bar-title class="text-h5" color="white">

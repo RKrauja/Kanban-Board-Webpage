@@ -1,11 +1,16 @@
-<script setup>
+<script lang="ts" setup>
 import { defineEmits, ref } from "vue";
+import type { NewTask } from "@/types/task";
 
-const emits = defineEmits(["taskButtonVisibility", "NewTask"]);
+const emits = defineEmits<{
+  taskButtonVisibility: [boolean];
+  NewTask: [task: NewTask];
+}>();
+
 const taskName = ref("");
 const taskDescription = ref("");
 
-const taskSubmitted = () => {
+const taskSubmitted = (): void => {
   emits("taskButtonVisibility", true);
   if (taskName.value !== "") {
     emits("NewTask", {
@@ -17,7 +22,7 @@ const taskSubmitted = () => {
   taskDescription.value = "";
 };
 
-const taskCancelled = () => {
+const taskCancelled = (): void => {
   emits("taskButtonVisibility", true);
   taskName.value = "";
   taskDescription.value = "";
