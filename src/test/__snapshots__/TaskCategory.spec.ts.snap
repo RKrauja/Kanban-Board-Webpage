@@ -1,0 +1,181 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskCategory > can render 1`] = `
+"<div class="v-col my-4" align="center" justify="center">
+  <div class="v-card v-card--flat v-theme--light v-card--density-default rounded-0 v-card--variant-elevated bg-red-accent-1 rounded-t-lg">
+    <!---->
+    <div class="v-card__loader">
+      <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+        <!---->
+        <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+        <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+        <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+          <div class="v-progress-linear__indeterminate">
+            <div class="v-progress-linear__indeterminate long"></div>
+            <div class="v-progress-linear__indeterminate short"></div>
+          </div>
+        </transition-stub>
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <!---->
+    <div class="v-card-title text-black"><strong>Test Category</strong></div>
+    <!---->
+    <!----><span class="v-card__underlay"></span>
+  </div>
+  <div class="v-card v-card--flat v-theme--light v-card--density-default rounded-0 v-card--variant-elevated bg-grey-lighten-2 rounded-b-lg" style="max-height: 85vh; overflow-y: auto;">
+    <!---->
+    <div class="v-card__loader">
+      <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+        <!---->
+        <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+        <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+        <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+          <div class="v-progress-linear__indeterminate">
+            <div class="v-progress-linear__indeterminate long"></div>
+            <div class="v-progress-linear__indeterminate short"></div>
+          </div>
+        </transition-stub>
+        <!---->
+      </div>
+    </div>
+    <!---->
+    <!---->
+    <ul class="pb-6">
+      <div data-v-8d47ba21="" class="v-card v-card--flat v-theme--light v-card--density-default v-card--variant-elevated truncate-container bg-transparent" data-draggable="true">
+        <!---->
+        <div class="v-card__loader">
+          <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+            <!---->
+            <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+            <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+            <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+              <div class="v-progress-linear__indeterminate">
+                <div class="v-progress-linear__indeterminate long"></div>
+                <div class="v-progress-linear__indeterminate short"></div>
+              </div>
+            </transition-stub>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div data-v-8d47ba21="" class="v-card v-theme--light v-card--density-default elevation-2 v-card--variant-elevated rounded-lg ma-2">
+          <!---->
+          <div class="v-card__loader">
+            <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+              <!---->
+              <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+              <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+              <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                <div class="v-progress-linear__indeterminate">
+                  <div class="v-progress-linear__indeterminate long"></div>
+                  <div class="v-progress-linear__indeterminate short"></div>
+                </div>
+              </transition-stub>
+              <!---->
+            </div>
+          </div>
+          <!---->
+          <!---->
+          <div data-v-8d47ba21="">
+            <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
+              <div data-v-8d47ba21="" class="truncate-text">Task 1</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                <!---->
+                <!---->
+              </button>
+            </div>
+            <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Description 1</div>
+          </div>
+          <!--v-if-->
+          <!---->
+          <!----><span class="v-card__underlay"></span>
+        </div>
+        <!---->
+        <!----><span class="v-card__underlay"></span>
+      </div>
+      <div data-v-8d47ba21="" class="v-card v-card--flat v-theme--light v-card--density-default v-card--variant-elevated truncate-container bg-transparent" data-draggable="true">
+        <!---->
+        <div class="v-card__loader">
+          <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+            <!---->
+            <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+            <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+            <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+              <div class="v-progress-linear__indeterminate">
+                <div class="v-progress-linear__indeterminate long"></div>
+                <div class="v-progress-linear__indeterminate short"></div>
+              </div>
+            </transition-stub>
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div data-v-8d47ba21="" class="v-card v-theme--light v-card--density-default elevation-2 v-card--variant-elevated rounded-lg ma-2">
+          <!---->
+          <div class="v-card__loader">
+            <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+              <!---->
+              <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+              <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+              <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                <div class="v-progress-linear__indeterminate">
+                  <div class="v-progress-linear__indeterminate long"></div>
+                  <div class="v-progress-linear__indeterminate short"></div>
+                </div>
+              </transition-stub>
+              <!---->
+            </div>
+          </div>
+          <!---->
+          <!---->
+          <div data-v-8d47ba21="">
+            <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
+              <div data-v-8d47ba21="" class="truncate-text">Task 2</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                <!---->
+                <!---->
+              </button>
+            </div>
+            <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Description 2</div>
+          </div>
+          <!--v-if-->
+          <!---->
+          <!----><span class="v-card__underlay"></span>
+        </div>
+        <!---->
+        <!----><span class="v-card__underlay"></span>
+      </div>
+    </ul>
+    <div class="v-card-item ma-0 pa-0" flat="">
+      <!---->
+      <div class="v-card-item__content">
+        <!---->
+        <!---->
+        <div class="d-flex justify-center align-center">
+          <!--v-if-->
+        </div>
+      </div>
+      <!---->
+    </div>
+    <div class="v-card-item ma-0 pa-0" flat="">
+      <!---->
+      <div class="v-card-item__content">
+        <!---->
+        <!---->
+        <div class="d-flex justify-center py-4"><button type="button" class="v-btn v-btn--flat v-theme--light border-0 v-btn--density-default v-btn--size-default v-btn--variant-elevated bg-transparent"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+            <!----><span class="v-btn__content" data-no-activator=""><div class="d-flex align-center justify-center"><i class="mdi-plus mdi v-icon notranslate v-theme--light v-icon--size-default mx-1" aria-hidden="true"></i><span>Add new Task</span></div></span>
+        <!---->
+        <!----></button>
+      </div>
+    </div>
+    <!---->
+  </div>
+  <!---->
+  <!----><span class="v-card__underlay"></span>
+</div>
+</div>"
+`;

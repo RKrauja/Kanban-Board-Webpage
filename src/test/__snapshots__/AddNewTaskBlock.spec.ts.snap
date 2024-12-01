@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddNewTaskBlock > can render 1`] = `
+"<div class="v-card v-theme--light bg-white v-card--density-default rounded-lg v-card--variant-elevated mx-5 mb-3 w-100">
+  <!---->
+  <div class="v-card__loader">
+    <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+      <!---->
+      <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+      <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+      <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+        <div class="v-progress-linear__indeterminate">
+          <div class="v-progress-linear__indeterminate long"></div>
+          <div class="v-progress-linear__indeterminate short"></div>
+        </div>
+      </transition-stub>
+      <!---->
+    </div>
+  </div>
+  <!---->
+  <!---->
+  <div class="v-card-text pa-4">
+    <div class="v-input v-input--horizontal v-input--center-affix v-input--density-comfortable v-theme--light v-locale--is-ltr v-text-field mb-2">
+      <!---->
+      <div class="v-input__control">
+        <div class="v-field v-field--center-affix v-field--has-background v-field--no-label v-field--variant-outlined v-theme--light bg-white v-locale--is-ltr">
+          <div class="v-field__overlay"></div>
+          <div class="v-field__loader">
+            <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+              <!---->
+              <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+              <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+              <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                <div class="v-progress-linear__indeterminate">
+                  <div class="v-progress-linear__indeterminate long"></div>
+                  <div class="v-progress-linear__indeterminate short"></div>
+                </div>
+              </transition-stub>
+              <!---->
+            </div>
+          </div>
+          <!---->
+          <div class="v-field__field" data-no-activator="">
+            <!----><label class="v-label v-field-label" for="input-0">
+              <!---->
+              <!---->
+            </label>
+            <!----><input placeholder="Enter a title..." size="1" type="text" id="input-0" aria-describedby="input-0-messages" class="v-field__input" value="">
+            <!---->
+          </div>
+          <!---->
+          <!---->
+          <div class="v-field__outline">
+            <div class="v-field__outline__start"></div>
+            <!---->
+            <div class="v-field__outline__end"></div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+      <!---->
+    </div>
+    <div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--light v-locale--is-ltr v-text-field">
+      <!---->
+      <div class="v-input__control">
+        <div class="v-field v-field--center-affix v-field--has-background v-field--no-label v-field--variant-outlined v-theme--light bg-white v-locale--is-ltr">
+          <div class="v-field__overlay"></div>
+          <div class="v-field__loader">
+            <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+              <!---->
+              <div class="v-progress-linear__background" style="opacity: NaN;"></div>
+              <div class="v-progress-linear__buffer" style="opacity: NaN; width: 0%;"></div>
+              <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                <div class="v-progress-linear__indeterminate">
+                  <div class="v-progress-linear__indeterminate long"></div>
+                  <div class="v-progress-linear__indeterminate short"></div>
+                </div>
+              </transition-stub>
+              <!---->
+            </div>
+          </div>
+          <!---->
+          <div class="v-field__field" data-no-activator="">
+            <!----><label class="v-label v-field-label" for="input-2">
+              <!---->
+              <!---->
+            </label>
+            <!----><input placeholder="Enter a description..." size="1" type="text" id="input-2" aria-describedby="input-2-messages" class="v-field__input" value="">
+            <!---->
+          </div>
+          <!---->
+          <!---->
+          <div class="v-field__outline">
+            <div class="v-field__outline__start"></div>
+            <!---->
+            <div class="v-field__outline__end"></div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+      <!---->
+    </div>
+    <div class="d-flex mt-3 gap-2"><button type="button" class="v-btn v-theme--light bg-success v-btn--density-default v-btn--size-default v-btn--variant-flat"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+        <!----><span class="v-btn__content" data-no-activator=""> ADD CARD </span>
+        <!---->
+        <!---->
+      </button><button type="button" class="v-btn v-theme--light text-error v-btn--density-default v-btn--size-default v-btn--variant-text"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+        <!----><span class="v-btn__content" data-no-activator=""> CANCEL </span>
+        <!---->
+        <!---->
+      </button></div>
+  </div>
+  <!---->
+  <!----><span class="v-card__underlay"></span>
+</div>"
+`;
