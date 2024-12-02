@@ -7,17 +7,17 @@ import { NewTask, Task } from "@/types/task";
 const tasks = ref<Task[][]>([
   [
     {
-      id: 10,
+      id: 1,
       title: "Fix sleep schedule",
       description: "Start going to bed before 1am",
     },
     {
-      id: 11,
+      id: 2,
       title: "Buy curtains",
       description: "Buy new curtains for the apartment",
     },
     {
-      id: 12,
+      id: 3,
       title: "Learn how to change a bike tire",
       description: "Learn this to save money in Denmark",
     },
@@ -46,17 +46,17 @@ const tasks = ref<Task[][]>([
   ],
   [
     {
-      id: 1,
+      id: 10,
       title: "Finish high school",
       description: "Finish high school with a good grade",
     },
     {
-      id: 2,
+      id: 11,
       title: "Get into University",
       description: "get into a modern university",
     },
     {
-      id: 3,
+      id: 12,
       title: "Make mom proud",
       description: "Give her a son to be proud of",
     },

@@ -107,13 +107,13 @@ exports[`KanbanGrid > can render 1`] = `
                       <!---->
                       <div data-v-8d47ba21="">
                         <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                          <div data-v-8d47ba21="" class="truncate-text">Task 1</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                          <div data-v-8d47ba21="" class="truncate-text">Fix sleep schedule</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                             <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                             <!---->
                             <!---->
                           </button>
                         </div>
-                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 1</div>
+                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Start going to bed before 1am</div>
                       </div>
                       <!--v-if-->
                       <!---->
@@ -160,13 +160,13 @@ exports[`KanbanGrid > can render 1`] = `
                       <!---->
                       <div data-v-8d47ba21="">
                         <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                          <div data-v-8d47ba21="" class="truncate-text">Task 2</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                          <div data-v-8d47ba21="" class="truncate-text">Buy curtains</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                             <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                             <!---->
                             <!---->
                           </button>
                         </div>
-                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 2</div>
+                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Buy new curtains for the apartment</div>
                       </div>
                       <!--v-if-->
                       <!---->
@@ -213,13 +213,13 @@ exports[`KanbanGrid > can render 1`] = `
                       <!---->
                       <div data-v-8d47ba21="">
                         <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                          <div data-v-8d47ba21="" class="truncate-text">Task 3</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                          <div data-v-8d47ba21="" class="truncate-text">Learn how to change a bike tire</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                             <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                             <!---->
                             <!---->
                           </button>
                         </div>
-                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 3</div>
+                        <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Learn this to save money in Denmark</div>
                       </div>
                       <!--v-if-->
                       <!---->
@@ -337,13 +337,13 @@ exports[`KanbanGrid > can render 1`] = `
                     <!---->
                     <div data-v-8d47ba21="">
                       <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                        <div data-v-8d47ba21="" class="truncate-text">Task 1</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                        <div data-v-8d47ba21="" class="truncate-text">Finish Uni</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                           <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                           <!---->
                           <!---->
                         </button>
                       </div>
-                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 1</div>
+                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Get a bachelors degree</div>
                     </div>
                     <!--v-if-->
                     <!---->
@@ -390,13 +390,13 @@ exports[`KanbanGrid > can render 1`] = `
                     <!---->
                     <div data-v-8d47ba21="">
                       <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                        <div data-v-8d47ba21="" class="truncate-text">Task 2</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                        <div data-v-8d47ba21="" class="truncate-text">Get a job</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                           <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                           <!---->
                           <!---->
                         </button>
                       </div>
-                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 2</div>
+                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Get a job as a programmer</div>
                     </div>
                     <!--v-if-->
                     <!---->
@@ -443,13 +443,13 @@ exports[`KanbanGrid > can render 1`] = `
                     <!---->
                     <div data-v-8d47ba21="">
                       <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                        <div data-v-8d47ba21="" class="truncate-text">Task 3</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                        <div data-v-8d47ba21="" class="truncate-text">Go to basketball practice</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                           <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                           <!---->
                           <!---->
                         </button>
                       </div>
-                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 3</div>
+                      <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Find a basketball team</div>
                     </div>
                     <!--v-if-->
                     <!---->
@@ -567,13 +567,13 @@ exports[`KanbanGrid > can render 1`] = `
                   <!---->
                   <div data-v-8d47ba21="">
                     <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                      <div data-v-8d47ba21="" class="truncate-text">Task 1</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                      <div data-v-8d47ba21="" class="truncate-text">Math homework</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                         <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                         <!---->
                         <!---->
                       </button>
                     </div>
-                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 1</div>
+                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Submit Math homework</div>
                   </div>
                   <!--v-if-->
                   <!---->
@@ -620,13 +620,13 @@ exports[`KanbanGrid > can render 1`] = `
                   <!---->
                   <div data-v-8d47ba21="">
                     <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                      <div data-v-8d47ba21="" class="truncate-text">Task 2</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                      <div data-v-8d47ba21="" class="truncate-text">Kanban board</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                         <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                         <!---->
                         <!---->
                       </button>
                     </div>
-                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 2</div>
+                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Create a kanban board in Vue</div>
                   </div>
                   <!--v-if-->
                   <!---->
@@ -673,13 +673,13 @@ exports[`KanbanGrid > can render 1`] = `
                   <!---->
                   <div data-v-8d47ba21="">
                     <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                      <div data-v-8d47ba21="" class="truncate-text">Task 3</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                      <div data-v-8d47ba21="" class="truncate-text">Chemistry assignment</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                         <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                         <!---->
                         <!---->
                       </button>
                     </div>
-                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 3</div>
+                    <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Carbon cycle assignment</div>
                   </div>
                   <!--v-if-->
                   <!---->
@@ -797,13 +797,13 @@ exports[`KanbanGrid > can render 1`] = `
                 <!---->
                 <div data-v-8d47ba21="">
                   <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                    <div data-v-8d47ba21="" class="truncate-text">Task 1</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                    <div data-v-8d47ba21="" class="truncate-text">Finish high school</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                       <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                       <!---->
                       <!---->
                     </button>
                   </div>
-                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 1</div>
+                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Finish high school with a good grade</div>
                 </div>
                 <!--v-if-->
                 <!---->
@@ -850,13 +850,13 @@ exports[`KanbanGrid > can render 1`] = `
                 <!---->
                 <div data-v-8d47ba21="">
                   <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                    <div data-v-8d47ba21="" class="truncate-text">Task 2</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                    <div data-v-8d47ba21="" class="truncate-text">Get into University</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                       <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                       <!---->
                       <!---->
                     </button>
                   </div>
-                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 2</div>
+                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">get into a modern university</div>
                 </div>
                 <!--v-if-->
                 <!---->
@@ -903,13 +903,13 @@ exports[`KanbanGrid > can render 1`] = `
                 <!---->
                 <div data-v-8d47ba21="">
                   <div data-v-8d47ba21="" class="v-card-title text-center pa-2 title-container">
-                    <div data-v-8d47ba21="" class="truncate-text">Task 3</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                    <div data-v-8d47ba21="" class="truncate-text">Make mom proud</div><button data-v-8d47ba21="" type="button" class="v-btn v-btn--flat v-btn--icon v-theme--light v-btn--density-compact v-btn--size-default v-btn--variant-elevated edit-btn"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
                       <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
                       <!---->
                       <!---->
                     </button>
                   </div>
-                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Some cute description 3</div>
+                  <div data-v-8d47ba21="" class="v-card-text truncate-text text-center">Give her a son to be proud of</div>
                 </div>
                 <!--v-if-->
                 <!---->
