@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import TaskCategory from "@/components/TaskCategory.vue";
-import { ref } from "vue";
+import { ref, defineExpose } from "vue";
 import AppBar from "@/components/AppBar.vue";
 import { NewTask, Task } from "@/types/task";
 
@@ -56,6 +56,12 @@ const handleUpdatedTask = (categoryIndex: number, updatedTask: Task): void => {
 const handleTasksReorder = (categoryIndex: number, newTasks: Task[]): void => {
   tasks.value[categoryIndex] = newTasks;
 };
+defineExpose({
+  tasks,
+  handleNewTask,
+  handleUpdatedTask,
+  handleTasksReorder,
+});
 </script>
 
 <template>
