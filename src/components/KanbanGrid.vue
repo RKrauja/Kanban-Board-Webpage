@@ -6,24 +6,60 @@ import { NewTask, Task } from "@/types/task";
 
 const tasks = ref<Task[][]>([
   [
-    { id: 1, title: "Task 1", description: "Some cute description 1" },
-    { id: 2, title: "Task 2", description: "Some cute description 2" },
-    { id: 3, title: "Task 3", description: "Some cute description 3" },
+    {
+      id: 10,
+      title: "Fix sleep schedule",
+      description: "Start going to bed before 1am",
+    },
+    {
+      id: 11,
+      title: "Buy curtains",
+      description: "Buy new curtains for the apartment",
+    },
+    {
+      id: 12,
+      title: "Learn how to change a bike tire",
+      description: "Learn this to save money in Denmark",
+    },
   ],
   [
-    { id: 4, title: "Task 1", description: "Some cute description 1" },
-    { id: 5, title: "Task 2", description: "Some cute description 2" },
-    { id: 6, title: "Task 3", description: "Some cute description 3" },
+    { id: 4, title: "Finish Uni", description: "Get a bachelors degree" },
+    { id: 5, title: "Get a job", description: "Get a job as a programmer" },
+    {
+      id: 6,
+      title: "Go to basketball practice",
+      description: "Find a basketball team",
+    },
   ],
   [
-    { id: 7, title: "Task 1", description: "Some cute description 1" },
-    { id: 8, title: "Task 2", description: "Some cute description 2" },
-    { id: 9, title: "Task 3", description: "Some cute description 3" },
+    { id: 7, title: "Math homework", description: "Submit Math homework" },
+    {
+      id: 8,
+      title: "Kanban board",
+      description: "Create a kanban board in Vue",
+    },
+    {
+      id: 9,
+      title: "Chemistry assignment",
+      description: "Carbon cycle assignment",
+    },
   ],
   [
-    { id: 10, title: "Task 1", description: "Some cute description 1" },
-    { id: 11, title: "Task 2", description: "Some cute description 2" },
-    { id: 12, title: "Task 3", description: "Some cute description 3" },
+    {
+      id: 1,
+      title: "Finish high school",
+      description: "Finish high school with a good grade",
+    },
+    {
+      id: 2,
+      title: "Get into University",
+      description: "get into a modern university",
+    },
+    {
+      id: 3,
+      title: "Make mom proud",
+      description: "Give her a son to be proud of",
+    },
   ],
 ]);
 
