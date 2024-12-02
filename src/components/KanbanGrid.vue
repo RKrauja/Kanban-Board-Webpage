@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import TaskCategory from "@/components/TaskCategory.vue";
-import { ref, defineExpose } from "vue";
+import { defineExpose, ref } from "vue";
 import AppBar from "@/components/AppBar.vue";
 import { NewTask, Task } from "@/types/task";
 
