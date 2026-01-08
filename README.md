@@ -3,7 +3,7 @@
 A drag-and-drop Kanban board implementation built with Vue 3, Vuetify, and TypeScript using the Composition API.
 
 ## Live Demo
-The project is hosted on https://reiniskr1.github.io/fysiofreshTest/
+The project is hosted on https://rkrauja.github.io/Kanban-Board-Webpage/
 
 ## Features
 
